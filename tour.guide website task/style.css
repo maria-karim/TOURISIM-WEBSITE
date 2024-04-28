@@ -1,0 +1,135 @@
+body { 
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f7f7;
+}
+
+header {
+	background-color: #161212;
+	color: #0e0d0d;
+	padding: 1em;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #f0cfcf;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #27e275;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+section#home1{
+	flex-direction: row;
+	align-items: center;
+	display: flex;
+	background-color: #aa3347;
+padding: 0%;
+margin: 0.2rem;
+width: 80rem;}
+
+section {
+	background-color: #a2f7f3;
+	padding: 2em;
+	margin-bottom: 2em;
+	/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+h1{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2.5rem;
+display: flex;
+text-align: center;
+background-color: #aa3347;
+}
+
+h2 {text-decoration: underline;
+	color: #292626;
+	margin-bottom: 1.3rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+}
+
+p {
+	margin-bottom: 1.4em;
+}
+
+button {
+	background-color: #aa3347;
+	color: #c7df85;
+	padding: 0.5em 1em;
+	border: none;
+	border-radius: 0.2em;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #28748b;
+}
+
+img {background-color: #2e3bf0;
+	border: 45px;
+	width: 55%;
+	height: 15em;
+	object-fit: cover;
+	margin-bottom: 1em;
+}
+.gallery {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .image-container {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+  }
+  
+  .image-container img {
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s ease;
+  }
+  
+  .image-container:hover img {
+	transform: scale(1.2);
+  }
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 1.2em;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input, textarea {
+	padding: 1.5em;
+	margin-bottom: 1em;
+	border: none;
+	border-radius: 0}
